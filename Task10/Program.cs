@@ -3,8 +3,6 @@
 //782 -> 8
 //918 -> 1
 
-using System.Reflection.Emit;
-
 Console.Write("Введите число:  ");
 int userNumber1=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine (Math.Abs((userNumber1/10)%10));
