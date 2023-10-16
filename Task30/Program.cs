@@ -4,7 +4,6 @@
 // [1,0,1,1,0,1,0,0]
 int Rrompt(string massage)
 {
-    Console.Clear();
     System.Console.Write(massage);
     string value = Console.ReadLine();
     int result = Convert.ToInt32(value);
@@ -41,7 +40,8 @@ void PrintArray(int[] col)
     }
     Console.Write("]");
 }
-
+    
+ Console.Clear();
 int temp = Rrompt("Введите длину массива: ");
 
 PrintArray(NewArray(temp));
