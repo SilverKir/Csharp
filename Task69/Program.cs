@@ -9,8 +9,7 @@ int Prompt(string massage)
 
 int PowerAB(int a, int b)
 {
-    if (b > 1) return a*PowerAB(a, b-1);
-    return a;
+     return b == 0 ? 1: a*PowerAB(a, b-1);
 }
 
 Console.Clear();
