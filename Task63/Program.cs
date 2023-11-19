@@ -21,7 +21,6 @@ void PrintInt(int n, int i = 1)
     }
 }
 
-
 Console.Clear();
 int numberN = Prompt("Задайте значение N: ");
 PrintInt(numberN);
