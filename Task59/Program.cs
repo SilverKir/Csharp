@@ -87,6 +87,6 @@ PrintMatrix(matrix);
 (int row, int column) = FindMin(matrix);
 
 Console.WriteLine($"строка{row} столбец {column}");
-Console.WriteLine("Нова матрица:");
+Console.WriteLine("Новая матрица:");
 
 PrintMatrix(DelMinRowColumn(matrix, row, column));

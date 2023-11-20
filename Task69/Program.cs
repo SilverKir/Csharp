@@ -4,13 +4,18 @@ int Prompt(string massage)
 {
     System.Console.Write(massage);
     string value = Console.ReadLine();
-     return Convert.ToInt32(value);
+    return Convert.ToInt32(value);
 }
 
 int PowerAB(int a, int b)
 {
-     return b == 0 ? 1: a*PowerAB(a, b-1);
+    return b == 0 ? 1 : a * PowerAB(a, b - 1);
+
+    // if (b == 0) return 1;
+    // else if (b % 2 == 0) return PowerAB(a * a, b / 2);
+    // else return a * PowerAB(a, b - 1);
 }
+
 
 Console.Clear();
 int numberN = Prompt("Число А: ");
